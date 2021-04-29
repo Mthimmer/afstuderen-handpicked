@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font:.8em monospace;
+  /* background-color: #000; */
+}
+#capture {
+  width: 100vw;
+  height: 100vh;
+}
+
+div#c1 {
+  float: left;
+  position: absolute;
+}
+
+div#c2 {
+  float: left;
+  position: absolute;
+  margin-top: -13px;
+}
+
+input#btnSave, #download {
+  position: relative;
+  margin-top: -100vh;
+}
+
+canvas {
+  position: relative;
+}
